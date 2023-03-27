@@ -5,4 +5,3 @@
     Please CLICK to visit the website</h5>
 
 ![](ekran.gif)
-# -Simple-shopping-site.
