@@ -1,0 +1,208 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(205, 205, 225);
+ }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding: 10px 20px;
+    position: sticky;
+    z-index: 100;
+
+
+}
+
+header input {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+   
+    
+}
+
+.buttons button{
+    padding:10px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.buttons :nth-child(1){
+    background-color: rgb(9, 10, 10);
+}
+.buttons :nth-child(2){
+    background-color: rgb(0,64,255);
+}
+.buttons :nth-child(3){
+    background-color:rgba(255,0,0);
+}
+
+.category-wrapper{
+    padding: 30px;
+
+}
+.categories{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+.category{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.category img {
+  width: 100%;
+  border-radius: 10px;
+}
+.category span{
+  position: absolute;
+  bottom: 10px;
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px;
+
+}
+
+.products{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products-wrapper{
+    padding: 30px;
+
+}
+
+.product{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    justify-content:space-between;
+    border-radius: 10px;
+    padding:10px;
+    gap:10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+.product img{
+    width:90%;
+   height: 70%;
+    border-radius: 10px;
+   
+    
+}
+.product-action{
+    display: flex;
+    align-items: center;
+    width:90%;
+    border-radius: 10px;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.product-action button{
+ background-color:rgb(255, 200, 0);
+ padding: 5px;
+ color:white;
+ border-radius: 10px;
+ cursor: pointer;
+ transition:  background-color 0.4s;
+ 
+}
+
+.product-action button:hover{
+    background-color: chocolate;
+    transition: all 0.4s;
+}
+
+/*SEPET>MODAL*/
+#modal-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    
+    background-color: rgba(0, 0, 0, 0.33);
+    z-index: 1000;
+   
+}
+#modal{
+    width: 50vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 10px;
+    overflow: scroll;
+    
+}
+
+#modal img{
+
+}
+
+
+.modal-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+
+
+
+}
+
+.active{
+    display: grid !important;
+    place-items: center;
+
+}
+
+
+.list-item{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+   padding: 10px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border-radius: 10px;
+}
+
+.list-item img{
+    width: 50px;
+    border-radius: 10px;
+}
