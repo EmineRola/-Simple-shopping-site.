@@ -44,7 +44,7 @@ function fetchProducts() {
         .then((res) => res.json())
         //işlenen veriyi al ve ekrana bas her bir ürünü bastırmak istiyorsak forEach
         .then((data) =>
-            data.slice(2, 26).forEach((product) => {
+            data.slice(2, 55).forEach((product) => {
                 // div ekledik
                 const productDiv = document.createElement('div');
                 //sınıf ekledik
