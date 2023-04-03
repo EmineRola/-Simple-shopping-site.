@@ -4,10 +4,6 @@
 
 In this study, API data was taken from another website by fetch method. This work has been done with HTML, CSS and Javascript codes. The dynamics of adding products to the cart and leaving the cart, and the dynamic structure that shows how many of the same products are added to the cart when more than one is added to the cart are given with javascript.</h5>
 
-<<<<<<< HEAD
-![](ekran1.gif)
-=======
-https://shoppingsite1.netlify.app/
+https://trendappshopping.netlify.app/
 
-![](ekran.gif)
->>>>>>> 56b82348c46e06eae0d3a9aa2e328e909b1cf4d7
+![](ekran1.gif)
